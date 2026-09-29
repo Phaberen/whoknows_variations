@@ -32,10 +32,8 @@ The workflow can be modified to deploy to another container registry such as Doc
 
 [01. Setup overview and what you need to change](./tutorials/01._Overview.md)
 
-[02. Generating a CR PAT](./tutorials/02._Generating_CR_PAT.md)
+[02. CLI Example](./tutorials/02._CLI_Example.md)
 
-[03. CLI Example](./tutorials/03._CLI_Example.md)
+[03. Workflow File](./tutorials/03._Workflow_File.md)
 
-[04. Workflow File](./tutorials/04._Workflow_File.md)
-
-[05. Environment Variables](./tutorials/05._Environment_Variables.md)
+[04. Environment Variables](./tutorials/04._Environment_Variables.md)
