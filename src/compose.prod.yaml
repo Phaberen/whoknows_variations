@@ -1,6 +1,6 @@
 services:
   whoknows_flask:
-    image: ghcr.io/who-knows-inc/whoknows_variations_server:latest
+    image: ghcr.io/phaberen/whoknows_variations_server:latest
     build:
       context: ./backend
       dockerfile: Dockerfile.prod
@@ -8,7 +8,7 @@ services:
       - "8080:8080"
 
   whoknows_nginx:
-    image: ghcr.io/who-knows-inc/whoknows_variations_nginx:latest
+    image: ghcr.io/phaberen/whoknows_variations_nginx:latest
     build:
       context: ./network
       dockerfile: Dockerfile
